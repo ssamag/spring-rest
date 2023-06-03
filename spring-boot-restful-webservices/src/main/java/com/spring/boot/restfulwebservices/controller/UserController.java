@@ -133,6 +133,7 @@ public class UserController {
     }
     
 	/*
+	 * This is controller level exception handler
 	 * @ExceptionHandler(ResourceNotFoundException.class) public
 	 * ResponseEntity<ErrorDetails>
 	 * handleResourceNotFoundException(ResourceNotFoundException exception,
